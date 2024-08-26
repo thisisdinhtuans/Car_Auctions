@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "15tGViAxPFnOxflgsF/PYazo+LGsQG1ITA0r41odQgpDOGnyUI4bZsZXdzcb+pe6Mk0TmWTNY8GUySwWpC5Clg==",
+  "dgSpecHash": "dKelOCXFUvs+9VlKW8BPR0fxIrxK77awqcdGojJ+YOMcM4mEM8VTncXWU64IRwfqFoWFXIvK7HfztKCt29PEaQ==",
   "success": true,
   "projectFilePath": "D:\\Project\\Microservice\\Carsties\\src\\AuctionService\\AuctionService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AD\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
