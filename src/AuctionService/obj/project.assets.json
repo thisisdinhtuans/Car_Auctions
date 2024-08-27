@@ -2299,11 +2299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Project\\Microservice\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+      "projectUniqueName": "D:\\Project\\Microservice\\Carsties\\src\\AuctionService\\AuctionService.csproj",
       "projectName": "AuctionService",
-      "projectPath": "d:\\Project\\Microservice\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+      "projectPath": "D:\\Project\\Microservice\\Carsties\\src\\AuctionService\\AuctionService.csproj",
       "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-      "outputPath": "d:\\Project\\Microservice\\Carsties\\src\\AuctionService\\obj\\",
+      "outputPath": "D:\\Project\\Microservice\\Carsties\\src\\AuctionService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",
