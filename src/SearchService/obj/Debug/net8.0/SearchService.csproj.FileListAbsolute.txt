@@ -42,3 +42,6 @@ D:\Project\Microservice\Carsties\src\SearchService\obj\Debug\net8.0\SearchServic
 D:\Project\Microservice\Carsties\src\SearchService\obj\Debug\net8.0\SearchService.genruntimeconfig.cache
 D:\Project\Microservice\Carsties\src\SearchService\obj\Debug\net8.0\ref\SearchService.dll
 D:\Project\Microservice\Carsties\src\SearchService\bin\Debug\net8.0\Data\auctions.json
+D:\Project\Microservice\Carsties\src\SearchService\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
+D:\Project\Microservice\Carsties\src\SearchService\bin\Debug\net8.0\Polly.dll
+D:\Project\Microservice\Carsties\src\SearchService\bin\Debug\net8.0\Polly.Extensions.Http.dll
