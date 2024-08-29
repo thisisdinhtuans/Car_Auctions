@@ -1,4 +1,5 @@
 using AuctionService.Data;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
 //builder khởi tạo một ứng dụng WebApplication, nơi các dịch vụ(services) như controller và DbContext được thêm vào
@@ -12,6 +13,14 @@ builder.Services.AddDbContext<AuctionDbContext>(opt=>{
 });
 //đăng ký AutoMapper trong 'Service'
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddMassTransit(x=>
+{
+    x.UsingRabbitMq((context, cfg)=>
+    {
+        cfg.ConfigureEndpoints(context);
+    });
+});
 
 var app = builder.Build();
 
