@@ -100,3 +100,9 @@ D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\zh-Hant\Mic
 D:\Project\Microservice\Carsties\src\AuctionService\obj\Debug\net8.0\AuctionService.csproj.AssemblyReference.cache
 D:\Project\Microservice\Carsties\src\AuctionService\obj\Debug\net8.0\AuctionService.csproj.CopyComplete
 D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\AutoMapper.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.Abstractions.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.pdb
