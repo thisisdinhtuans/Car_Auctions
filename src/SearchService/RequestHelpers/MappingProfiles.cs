@@ -10,5 +10,6 @@ public class MappingProifles : Profile
     public MappingProifles()
     {
         CreateMap<AuctionCreated, Item>();
+        CreateMap<AuctionUpdated, Item>();
     }
 }
