@@ -65,6 +65,23 @@
           }
         }
       },
+      "MassTransit.EntityFrameworkCore/8.2.5": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "8.2.5",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/MassTransit.EntityFrameworkCoreIntegration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.EntityFrameworkCoreIntegration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MassTransit.RabbitMQ/8.2.5": {
         "type": "package",
         "dependencies": {
@@ -1153,6 +1170,25 @@
         "lib/netstandard2.0/MassTransit.Abstractions.xml",
         "masstransit.abstractions.8.2.5.nupkg.sha512",
         "masstransit.abstractions.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.EntityFrameworkCore/8.2.5": {
+      "sha512": "wYZQKG28ozFkF5UVi3orhrDVixNOIcqYvUA9pguq4rE2fq9N/MxaqCapfR9T69uD3J1rdSUN3WfTxLEzGf/lVg==",
+      "type": "package",
+      "path": "masstransit.entityframeworkcore/8.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.README.md",
+        "lib/net6.0/MassTransit.EntityFrameworkCoreIntegration.dll",
+        "lib/net6.0/MassTransit.EntityFrameworkCoreIntegration.xml",
+        "lib/net8.0/MassTransit.EntityFrameworkCoreIntegration.dll",
+        "lib/net8.0/MassTransit.EntityFrameworkCoreIntegration.xml",
+        "lib/netstandard2.0/MassTransit.EntityFrameworkCoreIntegration.dll",
+        "lib/netstandard2.0/MassTransit.EntityFrameworkCoreIntegration.xml",
+        "masstransit.entityframeworkcore.8.2.5.nupkg.sha512",
+        "masstransit.entityframeworkcore.nuspec",
         "mt-logo-small.png"
       ]
     },
@@ -2754,6 +2790,7 @@
     "net8.0": [
       "AutoMapper >= 13.0.1",
       "Contracts >= 1.0.0",
+      "MassTransit.EntityFrameworkCore >= 8.2.5",
       "MassTransit.RabbitMQ >= 8.2.5",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4"
@@ -2805,6 +2842,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "MassTransit.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.2.5, )"
           },
           "MassTransit.RabbitMQ": {
             "target": "Package",
