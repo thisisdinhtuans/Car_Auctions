@@ -3855,11 +3855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+      "projectUniqueName": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
       "projectName": "IdentityService",
-      "projectPath": "d:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+      "projectPath": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
       "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-      "outputPath": "d:\\Project\\Microservice\\Carsties\\src\\IdentityService\\obj\\",
+      "outputPath": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",
