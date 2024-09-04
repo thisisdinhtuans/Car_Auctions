@@ -133,3 +133,4 @@ D:\Project\Microservice\Carsties\src\IdentityService\obj\Debug\net8.0\refint\Ide
 D:\Project\Microservice\Carsties\src\IdentityService\obj\Debug\net8.0\IdentityService.pdb
 D:\Project\Microservice\Carsties\src\IdentityService\obj\Debug\net8.0\IdentityService.genruntimeconfig.cache
 D:\Project\Microservice\Carsties\src\IdentityService\obj\Debug\net8.0\ref\IdentityService.dll
+D:\Project\Microservice\Carsties\src\IdentityService\bin\Debug\net8.0\keys\is-signing-key-E1ED1C4F1CDAD2A80163B2CF4D02917E.json
