@@ -2,6 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
+using IdentityService.Models;
+using IdentityModel;
+using System.Security.Claims;
+
 namespace IdentityService.Pages.Account.Register
 {
     [SecurityHeaders]
@@ -24,10 +29,10 @@ namespace IdentityService.Pages.Account.Register
         {   
             Input=new RegisterViewModel
             {
-                returnUrl=returnUrl,
+                ReturnUrl=returnUrl,
             };
 
-            return Pages();
+            return Page();
         }
 
         public async Task<IActionResult> OnPost()
@@ -36,7 +41,7 @@ namespace IdentityService.Pages.Account.Register
 
             if(ModelState.IsValid)
             {
-                var user=new ApplicationUser{
+                var user=new ApplicationUser {
                     UserName=Input.Username,
                     Email=Input.Email,
                     EmailConfirmed=true
@@ -44,17 +49,17 @@ namespace IdentityService.Pages.Account.Register
 
                 var result=await _userManager.CreateAsync(user, Input.Password);
 
-                if(result.Succed)
+                if(result.Succeeded)
                 {
-                    await _userManager.AddClaimsAsync(user, new Claims[]
+                    await _userManager.AddClaimsAsync(user, new Claim[]
                     {
-                        new Claims(JwtClaimType.Name, Input.FullName)
+                        new Claim(JwtClaimTypes.Name, Input.FullName)
                     });
                     RegisterSuccess=true;
                 }
             }
 
-            return Pages();
+            return Page();
         }
     }
 }

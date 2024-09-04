@@ -1,5 +1,5 @@
 using System;
-
+using System.ComponentModel.DataAnnotations;
 namespace IdentityService.Pages.Account.Register;
 
 public class RegisterViewModel
