@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj": {}
+    "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj": {
+    "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
-        "projectName": "IdentityService",
-        "projectPath": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+        "projectUniqueName": "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj",
+        "projectName": "GatewayService",
+        "projectPath": "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\obj\\",
+        "outputPath": "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,37 +40,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Duende.IdentityServer.AspNetIdentity": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[8.0.8, )"
             },
-            "Microsoft.AspNetCore.Authentication.Google": {
+            "Yarp.ReverseProxy": {
               "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
