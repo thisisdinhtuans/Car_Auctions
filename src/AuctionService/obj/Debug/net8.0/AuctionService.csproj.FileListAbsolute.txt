@@ -107,3 +107,11 @@ D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\RabbitMQ.Cl
 D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.dll
 D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.pdb
 D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.EntityFrameworkCoreIntegration.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project\Microservice\Carsties\src\AuctionService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
