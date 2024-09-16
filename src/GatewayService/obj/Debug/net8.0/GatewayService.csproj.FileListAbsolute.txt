@@ -36,3 +36,4 @@ D:\Project\Microservice\Carsties\src\GatewayService\obj\Debug\net8.0\refint\Gate
 D:\Project\Microservice\Carsties\src\GatewayService\obj\Debug\net8.0\GatewayService.pdb
 D:\Project\Microservice\Carsties\src\GatewayService\obj\Debug\net8.0\GatewayService.genruntimeconfig.cache
 D:\Project\Microservice\Carsties\src\GatewayService\obj\Debug\net8.0\ref\GatewayService.dll
+D:\Project\Microservice\Carsties\src\GatewayService\bin\Debug\net8.0\appsettings.Docker.json
