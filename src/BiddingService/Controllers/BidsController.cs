@@ -22,41 +22,38 @@ public class BidsController:ControllerBase
             return NotFound();
         } 
 
-        if(auction.Seller == User.Identity.Name)
+        if(auction.Seller == User.Identity?.Name)
         {
             return BadRequest("You cannot bid on your own auction");
         }
 
-        var bid=new Bid 
+        var bid = new Bid()
         {
-            Amount=amount,
-            AuctionId=auctionId,
-            Bidder=User.Identity.Name
+            Amount = amount,
+            AuctionId = auctionId,
+            Bidder = User.Identity.Name
         };
-
-        if(auction.AuctionEnd<DateTime.UtcNow)
+        if (auction.AuctionEnd < DateTime.UtcNow)
         {
-            bid.BidStatus=BidStatus.Finished;
+            bid.BidStatus = BidStatus.Finished;
         }
-        else {
-            var highBid=await DB.Find<Bid>()
-            .Match(a=>a.AuctionId==auctionId)
-            .Sort(b=>b.Descending(x=>x.Amount))
-            .ExecuteFirstAsync();
-
-            if(highBid!=null  && amount>highBid.Amount || highBid==null)
+        else
+        {
+            var highBid = await DB.Find<Bid>()
+                .Match(a => a.AuctionId == auctionId)
+                .Sort(b => b.Descending(x => x.Amount))
+                .ExecuteFirstAsync();
+            if (highBid != null && amount > highBid.Amount || highBid == null)
             {
-                bid.BidStatus =amount>auction.ReservePrice
+                bid.BidStatus = amount > auction.ReservePrice
                     ? BidStatus.Accepted
                     : BidStatus.AcceptedBelowReserve;
             }
-
-            if(highBid != null&&bid.Amount<=highBid.Amount)
+            if (highBid != null && bid.Amount <= highBid.Amount)
             {
-                bid.BidStatus=BidStatus.TooLow;
+                bid.BidStatus = BidStatus.TooLow;
             }
         }
-        
         await DB.SaveAsync(bid);
 
         return Ok(bid);

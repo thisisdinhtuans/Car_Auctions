@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tksg3vFGxksXF3TYDa/uuGxO5LBl8T22UwG2sghrtczgcLDqC/xX+cLk7BNB7Z/4NDqiLT19qgIBiQgr4B3p9Q==",
+  "dgSpecHash": "gy/2oOw4WORIbRdel5lgJh/v+qkA/a5TV/r+vLjT72myW8KzwLPd1fdn2j3VMDbMuFBViQCeRZ6kkyHudyiL2g==",
   "success": true,
   "projectFilePath": "D:\\Project\\Microservice\\Carsties\\src\\BiddingService\\BiddingService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AD\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

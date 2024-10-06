@@ -52,3 +52,6 @@ D:\Project\Microservice\Carsties\src\BiddingService\obj\Debug\net8.0\refint\Bidd
 D:\Project\Microservice\Carsties\src\BiddingService\obj\Debug\net8.0\BiddingService.pdb
 D:\Project\Microservice\Carsties\src\BiddingService\obj\Debug\net8.0\BiddingService.genruntimeconfig.cache
 D:\Project\Microservice\Carsties\src\BiddingService\obj\Debug\net8.0\ref\BiddingService.dll
+D:\Project\Microservice\Carsties\src\BiddingService\bin\Debug\net8.0\AutoMapper.dll
+D:\Project\Microservice\Carsties\src\BiddingService\bin\Debug\net8.0\Contracts.dll
+D:\Project\Microservice\Carsties\src\BiddingService\bin\Debug\net8.0\Contracts.pdb
