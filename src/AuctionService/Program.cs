@@ -11,28 +11,28 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddMassTransit(x=>
-{
+// builder.Services.AddMassTransit(x=>
+// {
 
-    x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("bids", false));
+//     x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("bids", false));
 
-    x.UsingRabbitMq((context, cfg)=>
-    {
-        cfg.Host(builder.Configuration["RabbitMq:Host"], "/", host => {
-            host.Username(builder.Configuration.GetValue("RabbitMq:Username", "guest"));
-            host.Password(builder.Configuration.GetValue("RabbitMq:Password", "guest"));
-        });
+//     x.UsingRabbitMq((context, cfg)=>
+//     {
+//         cfg.Host(builder.Configuration["RabbitMq:Host"], "/", host => {
+//             host.Username(builder.Configuration.GetValue("RabbitMq:Username", "guest"));
+//             host.Password(builder.Configuration.GetValue("RabbitMq:Password", "guest"));
+//         });
         
-        cfg.ConfigureEndpoints(context);
-    });
-});
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options=>{
-        options.Authority=builder.Configuration["IdentityServiceUrl"];
-        options.RequireHttpsMetadata=false;
-        options.TokenValidationParameters.ValidateAudience=false;
-        options.TokenValidationParameters.NameClaimType="username";
-    });
+//         cfg.ConfigureEndpoints(context);
+//     });
+// });
+// builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//     .AddJwtBearer(options=>{
+//         options.Authority=builder.Configuration["IdentityServiceUrl"];
+//         options.RequireHttpsMetadata=false;
+//         options.TokenValidationParameters.ValidateAudience=false;
+//         options.TokenValidationParameters.NameClaimType="username";
+//     });
 
 builder.Services.AddDbContext<AuctionDbContext>(opt=>{
     opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
