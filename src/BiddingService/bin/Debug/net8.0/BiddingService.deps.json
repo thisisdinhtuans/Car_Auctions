@@ -10,6 +10,9 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Contracts": "1.0.0",
+          "Google.Protobuf": "3.29.0-rc1",
+          "Grpc.Net.Client": "2.66.0",
+          "Grpc.Tools": "2.67.0-pre1",
           "MassTransit.RabbitMQ": "8.2.5",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
           "MongoDB.Entities": "23.1.1"
@@ -59,6 +62,46 @@
           }
         }
       },
+      "Google.Protobuf/3.29.0-rc1": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.29.0.0",
+            "fileVersion": "3.29.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.66.0": {
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.66.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.66.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.66.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.66.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.66.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.66.0"
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.66.0.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.67.0-pre1": {},
       "MassTransit/8.2.5": {
         "dependencies": {
           "MassTransit.Abstractions": "8.2.5",
@@ -409,6 +452,41 @@
       "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
+    },
+    "Google.Protobuf/3.29.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JcIj9xzh77KP0y9xvr22S+dGp9ZhQYAPUFjZJgYNCWFf4OTk1ThW5vX8EMjx2594F54A2JoMQfS3bbkCfa17/A==",
+      "path": "google.protobuf/3.29.0-rc1",
+      "hashPath": "google.protobuf.3.29.0-rc1.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.66.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HsjsQVAHe4hqP4t4rpUnmq+MZvPdyrlPsWF4T5fbMvyP3o/lMV+KVJfDlaNH8+v0aGQTVT3EsDFufbhaWb52cw==",
+      "path": "grpc.core.api/2.66.0",
+      "hashPath": "grpc.core.api.2.66.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.66.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GwkSsssXFgN9+M2U+UQWdErf61sn1iqgP+2NRBlDXATcP9vlxda0wySxd/eIL8U522+SnyFNUXlvQ5tAzGk9cA==",
+      "path": "grpc.net.client/2.66.0",
+      "hashPath": "grpc.net.client.2.66.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.66.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YJpQpIvpo0HKlsG6SHwaieyji08qfv0DdEDIewCAA0egQY08637sHOj1netLGUhzBEsCqlGC3e92TZ2uqhxnvw==",
+      "path": "grpc.net.common/2.66.0",
+      "hashPath": "grpc.net.common.2.66.0.nupkg.sha512"
+    },
+    "Grpc.Tools/2.67.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+GHpOrwZow9JmmReJNIF4E3N0AAdQMdeWjb2Aomrj6BqptLc9WG6FUGWDwJKpG8W3i/5BCJOr0lEQ1OxXWU5vA==",
+      "path": "grpc.tools/2.67.0-pre1",
+      "hashPath": "grpc.tools.2.67.0-pre1.nupkg.sha512"
     },
     "MassTransit/8.2.5": {
       "type": "package",
