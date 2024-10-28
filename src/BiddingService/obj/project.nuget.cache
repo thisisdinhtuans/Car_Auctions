@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yzvr2dt6wVy0BAvSCv/YWa7EhHYCaqYWa+NRfEtmvduN+dKUizESopZGJEYf7AEGNP2KnWLgM7TDbCed/Am7Jg==",
+  "dgSpecHash": "8Mh3SUW2D5JIC8ais60h9pOE76tftrL+HsCm4p2dpRYmMw0KZmVlxtTEJ0x9IEk+JcqbajTKtYrLLxl+8yK2Fg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Microservice\\Carsties\\src\\BiddingService\\BiddingService.csproj",
+  "projectFilePath": "D:\\QT\\Project\\Microservice\\Carsties\\src\\BiddingService\\BiddingService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AD\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

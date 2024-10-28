@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj": {}
+    "D:\\QT\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj": {
+    "D:\\QT\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj",
+        "projectUniqueName": "D:\\QT\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj",
         "projectName": "GatewayService",
-        "projectPath": "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj",
+        "projectPath": "D:\\QT\\Project\\Microservice\\Carsties\\src\\GatewayService\\GatewayService.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Microservice\\Carsties\\src\\GatewayService\\obj\\",
+        "outputPath": "D:\\QT\\Project\\Microservice\\Carsties\\src\\GatewayService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",

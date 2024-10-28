@@ -10,3 +10,15 @@ D:\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.dll
 D:\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\refint\Contracts.dll
 D:\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.pdb
 D:\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\ref\Contracts.dll
+D:\QT\Project\Microservice\Carsties\src\Contracts\bin\Debug\net8.0\Contracts.deps.json
+D:\QT\Project\Microservice\Carsties\src\Contracts\bin\Debug\net8.0\Contracts.dll
+D:\QT\Project\Microservice\Carsties\src\Contracts\bin\Debug\net8.0\Contracts.pdb
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.dll
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\refint\Contracts.dll
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\Contracts.pdb
+D:\QT\Project\Microservice\Carsties\src\Contracts\obj\Debug\net8.0\ref\Contracts.dll

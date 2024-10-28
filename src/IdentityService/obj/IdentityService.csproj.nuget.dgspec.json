@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj": {}
+    "D:\\QT\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj": {
+    "D:\\QT\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+        "projectUniqueName": "D:\\QT\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
         "projectName": "IdentityService",
-        "projectPath": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+        "projectPath": "D:\\QT\\Project\\Microservice\\Carsties\\src\\IdentityService\\IdentityService.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Microservice\\Carsties\\src\\IdentityService\\obj\\",
+        "outputPath": "D:\\QT\\Project\\Microservice\\Carsties\\src\\IdentityService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",
