@@ -13,6 +13,7 @@ COPY src/NotificationService/NotificationService.csproj src/NotificationService/
 COPY src/IdentityService/IdentityService.csproj src/IdentityService/IdentityService.csproj
 COPY src/Contracts/Contracts.csproj src/Contracts/Contracts.csproj
 
+
 # Restore package deps
 RUN dotnet restore Carsties.sln
 

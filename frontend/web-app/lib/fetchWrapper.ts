@@ -1,8 +1,8 @@
-import { auth } from "@/auth";
+import { auth } from '@/auth';
 
 const baseUrl = 'http://localhost:6001/';
 
-async function get(url : string) {
+async function get(url: string) {
     const requestOptions = {
         method: 'GET',
         headers: await getHeaders()
@@ -13,7 +13,7 @@ async function get(url : string) {
     return handleResponse(response);
 }
 
-async function post(url : string, body: {}) {
+async function post(url: string, body: {}) {
     const requestOptions = {
         method: 'POST',
         headers: await getHeaders(),
@@ -25,7 +25,7 @@ async function post(url : string, body: {}) {
     return handleResponse(response);
 }
 
-async function put(url : string, body: {}) {
+async function put(url: string, body: {}) {
     const requestOptions = {
         method: 'PUT',
         headers: await getHeaders(),
@@ -37,7 +37,7 @@ async function put(url : string, body: {}) {
     return handleResponse(response);
 }
 
-async function del(url : string) {
+async function del(url: string) {
     const requestOptions = {
         method: 'DELETE',
         headers: await getHeaders()
@@ -48,37 +48,34 @@ async function del(url : string) {
     return handleResponse(response);
 }
 
-
 async function getHeaders() {
-    const session=await auth();
-    const headers={
+    const session = await auth();
+    const headers = {
         'Content-type': 'application/json'
     } as any;
-    if(session?.accessToken) {
-        headers.Authorization='Bearer ' + session.accessToken
+    if (session?.accessToken) {
+        headers.Authorization = 'Bearer ' + session.accessToken
     }
     return headers;
 }
 
 async function handleResponse(response: Response) {
-    const text=await response.text();
-    // const data=text && JSON.parse(text);
+    const text = await response.text();
     let data;
     try {
-        data=JSON.parse(text);
-    } catch(error) {
-        data=text;
+        data = JSON.parse(text);
+    } catch (error) {
+        data = text;
     }
 
-    if(response.ok)
-    {
-        return data || response.statusText
+    if (response.ok) {
+        return data || response.statusText;
     } else {
-        const error={
+        const error = {
             status: response.status,
-            message: typeof data==='string' ? data : response.statusText
+            message: typeof(data === 'string') ? data : response.statusText
         }
-        return {error};
+        return {error}
     }
 }
 

@@ -23,12 +23,12 @@ export default function Listings() {
     seller: state.seller,
     winner: state.winner
   })));
-  const data=useAuctionStore(useShallow(state=> ({
+  const data = useAuctionStore(useShallow(state => ({
     auctions: state.auctions,
     totalCount: state.totalCount,
     pageCount: state.pageCount
-  })));
-  const setData=useAuctionStore(state=>state.setData);
+})))
+const setData = useAuctionStore(state => state.setData);
   const setParams=useParamsStore(state=>state.setParams);
   const url=qs.stringifyUrl({url: '', query: params})
 
